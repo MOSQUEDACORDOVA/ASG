@@ -614,7 +614,7 @@ label.error{
   left: 0;
   top:0;
   width: 39.47vmin;
-  height: 40.7vmin;
+  height: 17vmin;
   padding: 4.8vmin 2em 4.8vmin;
   background-color: #2b2b2b;
   text-align: center;
@@ -630,6 +630,20 @@ label.error{
   font-size:4vmin;
   line-height: 1;
   color: #fff;
+}
+
+.brand-logo{
+  height: 9vmin;
+}
+
+@media (max-width: 480px){
+.brand-panel{
+    width: 45vmin;
+    height: 26vmin;
+  }
+.brand-logo{
+    height: 16vmin;
+  }
 }
 
 .brand:hover,
@@ -758,8 +772,8 @@ label.error{
   transform-origin: 0 0;
 }
 
-@media (max-height: 850px){
-  .vertical-panel-title{
+@media (max-width: 768px){
+  .vertical-panel, .vertical-panel-content {
     display: none;
   }
 }
@@ -953,7 +967,6 @@ label.error{
 }
 
 .navbar-toggle{
-  padding: 0;
   margin-top:0;
   margin-bottom: 0;
   border-radius: 0;
@@ -1142,7 +1155,7 @@ label.error{
 .arrow-right{
   position: absolute;
   z-index: 4;
-  bottom: 4vh;
+  bottom: 6vmin;
   cursor: pointer;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -1154,7 +1167,7 @@ label.error{
 }
 
 .arrow-right{
-  right: 15px;
+  right: 22vmin;
 }
 
 .arrow-left:after,
@@ -1561,7 +1574,7 @@ label.error{
 .owl-prev,
 .owl-next{
   position: absolute;
-  top:50%;
+  bottom: 0;
   font-family: 'Oswald', sans-serif;
   font-size:1em;
   letter-spacing: 0.32em;
@@ -2345,7 +2358,6 @@ img.mfp-img{
 /* 11.1 Min width 768px */
 
 
-
 @media (min-width: 768px){
 
 
@@ -2361,16 +2373,12 @@ img.mfp-img{
 
 
   .arrow-left{
-    top: 43.5vmin;
-    bottom: auto;
+    bottom: 6vmin;
   }
 
   .arrow-right{
-    left: 28vmin;
-    right: auto;
-    margin-left: 5em;
-    top: 43.5vmin;
-    bottom: auto;
+    right: 3vmin;
+    bottom: 6vmin;
   }
 
 
