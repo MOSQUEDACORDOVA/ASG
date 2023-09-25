@@ -1243,8 +1243,9 @@ label.error{
 
 
 .bg-about{
-  background: url(../img/bg/about.jpg) 50% 0 no-repeat;
+  background: url(../img/bg-about.avif) 50% 0 no-repeat;
   background-size: cover;
+  background-position: bottom;
 }
 
 .entry-title{
@@ -1432,6 +1433,7 @@ label.error{
 .project figure img{
   display: block;
   width: 100%;
+  height: 380px;
   -webkit-transition: all 8s linear;
   -o-transition: all 8s linear;
   transition: all 8s linear;
