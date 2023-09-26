@@ -1241,9 +1241,38 @@ label.error{
 /* ------------------------------------------------------------------------------- */
 
 
-
+ .m-0 {
+  margin: 0 !important;
+ }
+ .mb-2 {
+  margin-bottom: 2rem !important;
+ }
 .bg-about{
   background: url(../img/bg-about.avif) 50% 0 no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.bg-residential{
+  background: url(../img/bg-residential.avif) 50% 0 no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.bg-automation{
+  background: url(../img/bg-automation.avif) 50% 0 no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.bg-energy{
+  background: url(../img/bg-energy.avif) 50% 0 no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.bg-security{
+  background: url(../img/bg-security.avif) 50% 0 no-repeat;
   background-size: cover;
   background-position: bottom;
 }
