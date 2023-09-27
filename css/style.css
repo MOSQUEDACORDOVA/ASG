@@ -1276,7 +1276,16 @@ label.error{
   background-size: cover;
   background-position: bottom;
 }
-
+@media (min-width:768px) {
+  .heightItem img {
+    height: 480px;
+  }
+}
+@media (min-width:1200px) {
+  .heightItem img {
+    height: 510px;
+  }
+}
 .entry-title{
   font-size: 3.6em;
   margin:0 0 1em;
