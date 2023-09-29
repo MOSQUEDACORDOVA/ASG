@@ -1127,7 +1127,9 @@ label.error{
   text-align: center;
   padding-left: 38.5vmin;
 }
-
+.text-parallax-content {
+  font-size: 8em !important;
+}
 .main-header h1{
   color: #fff;
   margin:0;
