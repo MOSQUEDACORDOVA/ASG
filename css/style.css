@@ -1994,10 +1994,14 @@ img.mfp-img{
 /*  8. Blog
 /* ------------------------------------------------------------------------------- */
 
-
+@media (min-width: 768px) {
+  .blog-content-info {
+    margin-top: 150px;
+  }
+}
 
 .bg-blog{
-  background: url(../img/bg/blog.jpg) 50% 0 no-repeat;
+  background: url(../img/bg-about.avif) 50% 0 no-repeat;
   background-size: cover;
 }
 
