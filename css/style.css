@@ -142,6 +142,9 @@ body{
 
 }
 
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
 h1,
 .h1{ 
   font-family: 'Oswald', sans-serif;
@@ -305,7 +308,21 @@ label.error{
 
 /* 1.4 Buttons */
 
+.col-address .card {
+  background: #323232;
+  padding: 20px;
+  border-radius: 0.75em;
+}
 
+.col-address .card svg {
+  height: 35px;
+  width: 35px;
+  fill: #c5a47e !important;
+  margin-right: 10px;
+}
+.my-5 {
+  margin: 3rem 0 !important;
+}
 
 .btn{
   font-family: 'montserratsemibold';
@@ -780,7 +797,18 @@ label.error{
     display: none;
   }
 }
-
+.social-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-footer .fa, .social-footer svg {
+  font-size: 2.4vmin;
+  color: #606060;
+}
+.social-footer li {
+  margin-right: 1em;
+}
 .social-list{
   margin-bottom: 3.5vmin;
 }
@@ -794,12 +822,36 @@ label.error{
   color: #606060;
 }
 
-.social-list .fa:hover{
+.fa-discord svg {
+  fill: #606060; 
+  transition: fill 0.3s ease; 
+}
+
+.fa-discord:hover svg {
+  fill: #c5a47e; 
+}
+
+.social-list .fa:hover, .social-footer .fa:hover{
   color:#c5a47e;
   text-decoration: none;
 }
 
 
+.social-footer li {
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+.social-footer li a {
+  display: inline-block;
+  width: 2.4vmin;
+  height: 2.4vmin;
+}
+
+.social-footer .fa svg {
+  width: 100%;
+  height: 100%;
+}
 
 /* 2.3 Navbar Desctop */
 
@@ -1135,6 +1187,8 @@ label.error{
   margin:0;
   margin-right: -0.32em;
 }
+
+
 
 
 
