@@ -57,7 +57,7 @@ class IndexController extends Controller
     }
     public function marine_kvh()
     {
-        return view('web.marinestart');
+        return view('web.marinekvh');
     }
     public function marine_system()
     {
