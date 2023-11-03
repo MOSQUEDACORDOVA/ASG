@@ -60,10 +60,8 @@
           <div class="section-content" style="margin: 0;">
             <div class="row-base row">
               <div class="col-address col-base col-md-4">
-                +7 (212) 654-33-35<br>
-                +7 (212) 287-85-22<br>
+                +1 (305) 725-49-27<br>
                 info@goarch.com<br>
-                USA, New York, 57 Quigley Bridge
               </div>
               <div class="col-base  col-md-8">
                 <form class="js-ajax-form">
