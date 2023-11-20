@@ -37,19 +37,6 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('admin'), // password
         ]);
 
-        $rol = \App\Models\Rol::where('nombre', 'Administrador')->first();
-        \App\Models\User::create([
-            'id' => 2,
-            'rol_id' => $rol->id,
-            'username' => 'Nelson Herrera',
-            'email' => 'nelsonherrera@gmail.com',
-            'password' => Hash::make('admin'), // password
-            'HWID' => 'D8903A045B4C82580D4C2F58571CFFB0752AB638EC3EAFE0BBF018C8DD225EC04B6A8A54FA124EA8E3128F987EC833B0D47608A056B6E970FE3EC7C8790896C0',
-            'SocialClubName' => 'SoyNelsonHerrera',
-            'SocialClubId' => 221357069,
-            'LastIP' => '71.138.162.134',
-        ]);
-
         $rol = \App\Models\Rol::where('nombre', 'Community Manager')->first();
         \App\Models\User::create([
             'id' => 3,

@@ -579,6 +579,7 @@ label.error{
   text-align: center;
   margin:0;
   margin-left: 0.32em;
+  line-height: 2;
 }
 
 .fade-title-left,
@@ -872,16 +873,22 @@ label.error{
   position: relative;
   top:-0.22em;
   font-size: 1.6em;
+  width: 10% !important;
 }
 
 .navbar-desctop-menu{
   float: right;
-  font-family: 'Oswald', sans-serif;
-  font-weight: 500;
+  /* font-family: 'Oswald', sans-serif;
+  font-weight: 500; */
+  font-family: 'montserratsemibold';
+  font-weight: normal;
   font-size: 0.81em;
-  letter-spacing: 0.22em;
+  /* font-size: 0.81em; */
+  letter-spacing: 0.12em;
+  /* letter-spacing: 0.22em; */
   text-transform: uppercase;
   margin-bottom: 0;
+  margin-top: 1.3em;
 }
 
 .navbar-desctop-menu li{
@@ -1043,8 +1050,10 @@ label.error{
 }
 
 .navbar-nav-mobile{
-  font-family: 'Oswald', sans-serif;
-  font-weight: 300;
+  /* font-family: 'Oswald', sans-serif;
+  font-weight: 300; */
+  font-family: 'montserratsemibold';
+  font-weight: normal;
   font-size: 0.9em;
   letter-spacing: 0.32em;
   text-transform: uppercase;
@@ -1181,10 +1190,12 @@ label.error{
 .text-parallax-content {
   font-size: 8em !important;
 }
-.main-header h1{
+.main-header h2{
   color: #fff;
   margin:0;
   margin-right: -0.32em;
+  line-height: 2;
+  /* text-shadow: 0px px 5px white; */
 }
 
 
@@ -1207,7 +1218,7 @@ label.error{
 
 .tp-caption{
   padding: 0 20px;
-  text-align: right;
+  text-align: center;
 }
 
 .arrow-left,
@@ -1222,11 +1233,11 @@ label.error{
 }
 
 .arrow-left{
-  left: 22vmin;
+  left: 4vmin;
 }
 
 .arrow-right{
-  right: 22vmin;
+  right: 4vmin;
 }
 
 .arrow-left:after,
@@ -1290,7 +1301,7 @@ label.error{
 
 .slide-subtitle{
   font-size: 18px;
-  line-height: 1.7;
+  line-height: 1.5;
 }
 
 
@@ -1405,12 +1416,12 @@ label.error{
   object-fit: cover;
 }
 .entry-title{
-  font-size: 3.6em;
+  font-size: 2em;
   margin:0 0 1em;
 }
 
 .entry-text{
-  font-size: 1.6em;
+  font-size: 1.3em;
   line-height: 1.6;
 }
 
@@ -1462,10 +1473,12 @@ label.error{
 .service-item h4{
   margin-top: 0.8em;
   margin-bottom: 1.1em;
+
 }
 
 .services .service-item h4{
   margin-top: 1.25em;
+
 }
 
 .service-item p:last-child{

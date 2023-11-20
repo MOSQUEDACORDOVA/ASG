@@ -15,7 +15,7 @@
         <main class="main main-inner bg-video" data-stellar-background-ratio="0.6">
             <div class="container">
                 <header class="main-header">
-                    <h1>NEXT-LEVEL SECURITY WITH HIGH-DEFINITION SURVEILLANCE</h1>
+                    <h2>NEXT-LEVEL SECURITY WITH HIGH-DEFINITION SURVEILLANCE</h2>
                 </header>
             </div>
 

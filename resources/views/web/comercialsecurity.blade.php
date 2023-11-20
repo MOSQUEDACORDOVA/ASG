@@ -15,7 +15,7 @@
         <main class="main main-inner bg-comercial" data-stellar-background-ratio="0.6">
             <div class="container">
                 <header class="main-header">
-                    <h1>TAKE CONTROL OF YOUR SECURITY WITH NEXT-LEVEL TECHNOLOGY</h1>
+                    <h2>TAKE CONTROL OF YOUR SECURITY WITH <br>NEXT-LEVEL TECHNOLOGY</h2>
                 </header>
             </div>
 

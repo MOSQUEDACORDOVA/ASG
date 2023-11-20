@@ -15,7 +15,7 @@
         <main class="main main-inner bg-security" data-stellar-background-ratio="0.6">
             <div class="container">
                 <header class="main-header">
-                    <h1>SECURING YOUR WORLD WITH CUTTING-EDGE TECHNOLOGY</h1>
+                    <h2>SECURING YOUR WORLD WITH <br>CUTTING-EDGE TECHNOLOGY</h2>
                 </header>
             </div>
 

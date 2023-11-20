@@ -15,7 +15,7 @@
         <main class="main main-inner bg-about" data-stellar-background-ratio="0.6">
             <div class="container">
                 <header class="main-header">
-                    <h1>About Us</h1>
+                    <h2>About Us</h2>
                 </header>
             </div>
 
@@ -43,22 +43,25 @@
 
             <section id="about" class="about">
                 <div class="container">
-                    <div class="entry">
-                        <h3 class="entry-title">Elevating Excellence in Custom Audio, Video,
-                            and Automation Solutions<span class="text-primary">.</span></h3>
-                        <p class="entry-text">At our core, we are pioneers in the field of cutting-edge audio and video
+                    <div class="section-header ">
+                        <h2 class="section-title text-primary">Elevating Excellence in Custom Audio, Video,
+                            and Automation Solutions</h2>
+                    </div>
+                    <div class="entry" style="margin-top:1.5em;">
+                        <p class="entry-text ">At our core, we are pioneers in the field of cutting-edge audio and video
                             systems.
                             Our commitment to unwavering excellence drives us to set and exceed
                             industry standards, shaping the future of technology in both residential and commercial
                             spaces.</p>
                     </div>
-                    <div class="entry">
-                        <h3 class="entry-title">Why Choose Us?<span class="text-primary">.</span></h3>
+                    <div class="section-header ">
+                        <h2 class="section-title text-primary">Why Choose Us?</h2>
+                    </div>
+                    <div class="entry" style="margin-top:1.5em;">
                         <p class="entry-text">We specialize in delivering unparalleled, tailored audio and video
-                            solutions.
-                            Our advanced automation technologies cater to the diverse needs of our discerning clientele.
-                            With a relentless focus on innovation and masterful craftsmanship, we consistently surpass
-                            expectations.
+                            solutions. Our advanced automation technologies cater to the diverse needs of our discerning
+                            clientele. With a relentless focus on innovation and masterful craftsmanship, we consistently
+                             surpass expectations.
                         </p>
                         <p class="entry-text">Client satisfaction is our ultimate goal.</p>
                         <p class="entry-text">Transforming Spaces, Redefining Experiences</p>
@@ -115,41 +118,7 @@
                     </header>
                     <div class="section-content">
                         <div class="objects">
-                            <img alt="" class="img-responsive" src="{{ asset('img/map.png') }}">
-
-                            <!-- Objects -->
-
-                            <div class="object-label" style="left:12.6%; top:42%;">
-
-                            </div>
-
-                            <div class="object-label" style="left: 25.7%; top: 39.1%;">
-
-                            </div>
-
-                            <div class="object-label" style="left: 32.2%; top: 80.6%;">
-
-                            </div>
-
-                            <div class="object-label" style="left: 47.3%; top: 34.5%;">
-
-                            </div>
-
-                            <div class="object-label" style="left: 50.7%; top: 20.4%;">
-
-                            </div>
-
-                            <div class="object-label" style="left: 64.4%; top: 22.4%;">
-
-                            </div>
-
-                            <div class="object-label" style="left: 82.2%; top: 32.6%;">
-
-                            </div>
-
-                            <div class="object-label" style="left: 84.4%; top: 82.3%;">
-
-                            </div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13609904.558832994!2d-101.36166551020966!3d33.612293643941996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b0a20ec8c111%3A0xff96f271ddad4f65!2sMiami%2C%20Florida%2C%20EE.%20UU.!5e0!3m2!1ses!2sve!4v1700441918427!5m2!1ses!2sve" width="1200" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>

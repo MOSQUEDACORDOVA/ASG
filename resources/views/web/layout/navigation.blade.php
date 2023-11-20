@@ -10,7 +10,7 @@
         <nav class="navbar-desctop visible-md visible-lg">
             <div class="container">
                 <a href="#top" class="brand js-target-scroll">
-                    <img src="{{ asset('img/ASG-logo.webp') }}" width="30%" alt="logo">
+                    <img src="{{ asset('img/ASG-logo.webp') }}" class="img-responsive" alt="logo">
                 </a>
                 <ul class="navbar-desctop-menu">
 

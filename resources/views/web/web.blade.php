@@ -1,4 +1,3 @@
-
 @extends('web.layout.app')
 @section('content')
 
@@ -20,6 +19,8 @@
 
         <main class="main">
 
+            <div class="arrow-left"></div>
+            <div class="arrow-right"></div>
             <!-- Start revolution slider -->
 
             <div class="rev_slider_wrapper">
@@ -32,22 +33,17 @@
                             data-fsmasterspeed="1000">
 
                             <!-- Main image-->
-
-                            <img src="{{ asset('img/slider/slider1.png') }}" alt="carousel1" data-bgposition="center center" data-bgfit="cover"
+                            <img src="{{ asset('img/slider/slider1.png') }}" alt="carousel1"
+                                data-bgposition="center center" data-bgfit="cover"
                                 data-bgrepeat="no-repeat" class="rev-slidebg">
 
                             <!-- Layer 1 -->
 
-                            <div class="slide-title tp-caption tp-resizeme"
-                                data-x="['middle','middle','middle','middle']" data-hoffset="['0','0,'0','0]"
-                                data-y="['middle','middle','middle','middle']"
-                                data-voffset="['-25','-20', '-25']"
-                                data-fontsize="['40','40', '55']"
-                                data-lineheight="['70','70', '75']"
-                                data-width="['1100','700','550']"
-                                data-height="none"
-                                data-whitespace="normal"
-                                data-transform_idle="o:1;"
+                            <div class="slide-title tp-caption tp-resizeme" data-x="['middle','middle','middle','middle']"
+                                data-hoffset="['-18','-18','-18','-18']" data-y="['middle','middle','middle','middle']"
+                                data-voffset="['-35','-35', '-25']" data-fontsize="['50','45', '35']"
+                                data-lineheight="['80','75', '65']" data-width="['1100','700','550']" data-height="none"
+                                data-whitespace="normal" data-transform_idle="o:1;"
                                 data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;"
                                 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
                                 data-mask_in="x:50px;y:0px;s:inherit;e:inherit;"
@@ -61,16 +57,12 @@
                             <div class="slide-subtitle tp-caption tp-resizeme"
                                 data-x="['middle','middle','middle','middle']" data-hoffset="['0']"
                                 data-y="['middle','middle','middle','middle']"
-                                data-voffset="['20', '150', '250']"
-                                data-fontsize="['18', '18', '30']"
-                                data-width="['1100','700','550']"
-                                data-lineheight="['10','30','50']"
-                                data-whitespace="nowrap" data-transform_idle="o:1;"
+                                data-voffset="['95','130']"
+                                data-fontsize="['18']" data-whitespace="nowrap" data-transform_idle="o:1;"
                                 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1200;e:Power1.easeInOut;"
                                 data-transform_out="opacity:0;s:1000;s:1000;"
                                 data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-start="1500" data-splitin="none"
-                                data-splitout="none">
-                                We specialize in delivering <br>cutting-edge custom
+                                data-splitout="none">We specialize in delivering <br>cutting-edge custom
                                 audio and <br>video solutions
                             </div>
 
@@ -78,10 +70,8 @@
 
                             <div class="tp-caption" data-x="['middle','middle','middle','middle']"
                                 data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']"
-                                data-voffset="['195', '240','390']"
-                                data-width="none" data-height="none"
-                                data-whitespace="nowrap"
-                                data-transform_idle="o:1;"
+                                data-voffset="['195','215']" data-width="none" data-height="none"
+                                data-whitespace="nowrap" data-transform_idle="o:1;"
                                 data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;"
                                 data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);"
                                 data-transform_in="y:50px;opacity:0;s:1500;e:Power4.easeInOut;"
@@ -94,156 +84,129 @@
 
                         <!-- Slide 2 -->
 
-                        <li data-transition="slotzoom-horizontal" data-slotamount="7" data-easein="Power3.easeInOut"
-                            data-easeout="Power3.easeInOut" data-masterspeed="1000">
+                        <li data-transition="slotzoom-horizontal" data-slotamount="7" data-masterspeed="1000"
+                            data-fsmasterspeed="1000">
 
-                            <!-- Main image -->
-
-                            <img src="{{ asset('img/slider/slider2.png') }}" alt="" data-bgposition="center center" data-bgfit="cover"
+                            <!-- Main image-->
+                            <img src="{{ asset('img/slider/slider2.png') }}" alt="carousel1"
+                                data-bgposition="center center" data-bgfit="cover"
                                 data-bgrepeat="no-repeat" class="rev-slidebg">
 
                             <!-- Layer 1 -->
 
-                            <div class="slide-title tp-caption tp-resizeme"
-                                data-x="['middle','middle','middle','middle']" data-hoffset="['0','0,'0','0]"
-                                data-y="['middle','middle','middle','middle']"
-                                data-voffset="['-25','-20', '-25']"
-                                data-fontsize="['40','40', '55']"
-                                data-lineheight="['70','70', '75']"
-                                data-width="['1100','700','500']" data-height="none" data-whitespace="normal"
-                                data-transform_idle="o:1;"
+                            <div class="slide-title tp-caption tp-resizeme" data-x="['middle','middle','middle','middle']"
+                                data-hoffset="['-18','-18','-18','-18']" data-y="['middle','middle','middle','middle']"
+                                data-voffset="['-35','-35', '-25']" data-fontsize="['50','45', '35']"
+                                data-lineheight="['80','75', '65']" data-width="['1100','700','550']" data-height="none"
+                                data-whitespace="normal" data-transform_idle="o:1;"
                                 data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;"
                                 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
                                 data-mask_in="x:50px;y:0px;s:inherit;e:inherit;"
                                 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="500"
                                 data-splitin="chars" data-splitout="none" data-responsive_offset="on"
-                                data-elementdelay="0.05">SMART HOME SYSTEMS, LIGHT &
-                                CLIMATE CONTROL
+                                data-elementdelay="0.05">SMART HOME SYSTEMS, LIGHT & CLIMATE CONTROL
                             </div>
-
 
                             <!-- Layer 2 -->
 
                             <div class="slide-subtitle tp-caption tp-resizeme"
                                 data-x="['middle','middle','middle','middle']" data-hoffset="['0']"
                                 data-y="['middle','middle','middle','middle']"
-                                data-voffset="['20','150','290']"
-                                data-fontsize="['18', '18', '30']"
-                                data-width="['1100','700','550']"
-                                data-lineheight="['10', '30', '50']"
-                                data-whitespace="nowrap" data-transform_idle="o:1;"
+                                data-voffset="['95','130']"
+                                data-fontsize="['18']" data-whitespace="nowrap" data-transform_idle="o:1;"
                                 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1200;e:Power1.easeInOut;"
                                 data-transform_out="opacity:0;s:1000;s:1000;"
                                 data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-start="1500" data-splitin="none"
-                                data-splitout="none">
-                                Transform your home into a smart <br>and comfortable
+                                data-splitout="none">Transform your home into a smart <br>and comfortable
                                 space with ASG. <br>Get started today!
                             </div>
 
                             <!-- Layer 3 -->
 
-                            <div class="tp-caption tp-resizeme" data-x="['middle','middle','middle','middle']"
-                                data-hoffset="['0']" data-y="['middle','middle','middle','middle']"
-                                data-voffset="['195', '240','430']"
-                                data-width="none" data-height="none"
+                            <div class="tp-caption" data-x="['middle','middle','middle','middle']"
+                                data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']"
+                                data-voffset="['195','215']" data-width="none" data-height="none"
                                 data-whitespace="nowrap" data-transform_idle="o:1;"
                                 data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;"
                                 data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);"
                                 data-transform_in="y:50px;opacity:0;s:1500;e:Power4.easeInOut;"
                                 data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
                                 data-mask_out="x:inherit;y:inherit;" data-start="1500" data-splitin="none"
-                                data-splitout="none" data-responsive_offset="on" style="z-index: 8;"><a
-                                    href="#residential" class="btn js-target-scroll">Look more
-                                    <i class="icon-next"></i></a>
+                                data-splitout="none" data-responsive_offset="on"><a href="#about"
+                                    class="btn js-target-scroll">Look more <i class="icon-next"></i></a>
                             </div>
                         </li>
 
                         <!-- Slide 3 -->
-
-                        <li data-transition="slotzoom-horizontal" data-slotamount="7" data-easein="Power3.easeInOut"
-                            data-easeout="Power3.easeInOut" data-masterspeed="1000">
+                        <li data-transition="slotzoom-horizontal" data-slotamount="7" data-masterspeed="1000"
+                            data-fsmasterspeed="1000">
 
                             <!-- Main image-->
-
-                            <img src="{{ asset('img/slider/slider3.png')}}" alt="" data-bgposition="center center"
-                                data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg">
+                            <img src="{{ asset('img/slider/slider3.png') }}" alt="carousel1"
+                                data-bgposition="center center" data-bgfit="cover"
+                                data-bgrepeat="no-repeat" class="rev-slidebg">
 
                             <!-- Layer 1 -->
 
-                            <div class="slide-title tp-caption tp-resizeme"
-                                data-x="['middle','middle','middle','middle']" data-hoffset="['0','0,'0','0]"
-                                data-y="['middle','middle','middle','middle']"
-                                data-voffset="['-25','-10', '-25']"
-                                data-fontsize="['40','40', '55']"
-                                data-lineheight="['70','70', '75']"
-                                data-width="['1000','700','550']" data-height="none" data-whitespace="normal"
-                                data-transform_idle="o:1;"
+                            <div class="slide-title tp-caption tp-resizeme" data-x="['middle','middle','middle','middle']"
+                                data-hoffset="['-18','-18','-18','-18']" data-y="['middle','middle','middle','middle']"
+                                data-voffset="['-35','-35', '-25']" data-fontsize="['50','45', '35']"
+                                data-lineheight="['80','75', '65']" data-width="['1100','700','550']" data-height="none"
+                                data-whitespace="normal" data-transform_idle="o:1;"
                                 data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;"
                                 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
                                 data-mask_in="x:50px;y:0px;s:inherit;e:inherit;"
                                 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="500"
                                 data-splitin="chars" data-splitout="none" data-responsive_offset="on"
-                                data-elementdelay="0.05">
-                                CORPORATE AUDIO VIDEO SYSTEMS & AUTOMATION
+                                data-elementdelay="0.05">CORPORATE AUDIO VIDEO SYSTEMS & AUTOMATION
                             </div>
-
 
                             <!-- Layer 2 -->
 
                             <div class="slide-subtitle tp-caption tp-resizeme"
                                 data-x="['middle','middle','middle','middle']" data-hoffset="['0']"
                                 data-y="['middle','middle','middle','middle']"
-                                data-voffset="['20','140','290']"
-                                data-fontsize="['18', '18', '30']"
-                                data-width="['1100','700','550']"
-                                data-lineheight="['10','30','50']"
-                                data-whitespace="nowrap" data-transform_idle="o:1;"
+                                data-voffset="['95','130']"
+                                data-fontsize="['18']" data-whitespace="nowrap" data-transform_idle="o:1;"
                                 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1200;e:Power1.easeInOut;"
                                 data-transform_out="opacity:0;s:1000;s:1000;"
                                 data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-start="1500" data-splitin="none"
-                                data-splitout="none">
-                                Elevate your company with our<br> audiovisual and corporate <br>automation with us. Quote
+                                data-splitout="none">Elevate your company with our<br> audiovisual and corporate <br>automation with us. Quote
                                 now!
                             </div>
 
                             <!-- Layer 3 -->
 
-                            <div class="tp-caption tp-resizeme" data-x="['middle','middle','middle','middle']"
+                            <div class="tp-caption" data-x="['middle','middle','middle','middle']"
                                 data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']"
-                                data-voffset="['195','250','430']"
-                                data-width="none" data-height="none"
+                                data-voffset="['195','215']" data-width="none" data-height="none"
                                 data-whitespace="nowrap" data-transform_idle="o:1;"
                                 data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;"
                                 data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);"
                                 data-transform_in="y:50px;opacity:0;s:1500;e:Power4.easeInOut;"
                                 data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
                                 data-mask_out="x:inherit;y:inherit;" data-start="1500" data-splitin="none"
-                                data-splitout="none" data-responsive_offset="on" style="z-index: 8;"><a
-                                    href="#comercial" class="btn js-target-scroll">Look more
-                                    <i class="icon-next"></i></a>
+                                data-splitout="none" data-responsive_offset="on"><a href="#about"
+                                    class="btn js-target-scroll">Look more <i class="icon-next"></i></a>
                             </div>
                         </li>
 
-                        <!-- Slide 4s -->
-
-                        <li data-transition="slotzoom-horizontal" data-slotamount="7" data-easein="Power3.easeInOut"
-                            data-easeout="Power3.easeInOut" data-masterspeed="1000">
+                        <!-- Slide 4 -->
+                        <li data-transition="slotzoom-horizontal" data-slotamount="7" data-masterspeed="1000"
+                            data-fsmasterspeed="1000">
 
                             <!-- Main image-->
-
-                            <img src="{{ asset('img/slider/slider4.png') }}" alt="" data-bgposition="center center" data-bgfit="cover"
+                            <img src="{{ asset('img/slider/slider4.png') }}" alt="carousel1"
+                                data-bgposition="center center" data-bgfit="cover"
                                 data-bgrepeat="no-repeat" class="rev-slidebg">
 
                             <!-- Layer 1 -->
 
-                            <div class="slide-title tp-caption tp-resizeme"
-                                data-x="['middle','middle','middle','middle']" data-hoffset="['0','0,'0','0]"
-                                data-y="['middle','middle','middle','middle']"
-                                data-voffset="['-25','-20', '-25']"
-                                data-fontsize="['40','40', '55']"
-                                data-lineheight="['70','70', '75']"
-                                data-width="['1000','700','550']" data-height="none" data-whitespace="normal"
-                                data-transform_idle="o:1;"
+                            <div class="slide-title tp-caption tp-resizeme" data-x="['middle','middle','middle','middle']"
+                                data-hoffset="['-18','-18','-18','-18']" data-y="['middle','middle','middle','middle']"
+                                data-voffset="['-35','-35', '-25']" data-fontsize="['50','45', '35']"
+                                data-lineheight="['80','75', '65']" data-width="['1100','700','550']" data-height="none"
+                                data-whitespace="normal" data-transform_idle="o:1;"
                                 data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;"
                                 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
                                 data-mask_in="x:50px;y:0px;s:inherit;e:inherit;"
@@ -252,39 +215,33 @@
                                 data-elementdelay="0.05">MARINE AUDIO VIDEO AUTOMATION
                             </div>
 
-
                             <!-- Layer 2 -->
 
                             <div class="slide-subtitle tp-caption tp-resizeme"
                                 data-x="['middle','middle','middle','middle']" data-hoffset="['0']"
                                 data-y="['middle','middle','middle','middle']"
-                                data-voffset="['20','140','290']"
-                                data-fontsize="['18', '18', '30']"
-                                data-width="['1100','700','550']"
-                                data-lineheight="['10','30','50']"
-                                data-whitespace="nowrap" data-transform_idle="o:1;"
+                                data-voffset="['95','130']"
+                                data-fontsize="['18']" data-whitespace="nowrap" data-transform_idle="o:1;"
                                 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1200;e:Power1.easeInOut;"
                                 data-transform_out="opacity:0;s:1000;s:1000;"
                                 data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-start="1500" data-splitin="none"
-                                data-splitout="none">
-                                Modernize your boat with <br>the best marine automation. <br>
-                                Discover our solutions!
+                                data-splitout="none">Elevate your company with our<br> audiovisual and corporate <br>automation with us. Quote
+                                now!
                             </div>
 
                             <!-- Layer 3 -->
 
-                            <div class="tp-caption tp-resizeme" data-x="['middle','middle','middle','middle']"
+                            <div class="tp-caption" data-x="['middle','middle','middle','middle']"
                                 data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']"
-                                data-voffset="['195','250','370']" data-width="none" data-height="none"
+                                data-voffset="['195','215']" data-width="none" data-height="none"
                                 data-whitespace="nowrap" data-transform_idle="o:1;"
                                 data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;"
                                 data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);"
                                 data-transform_in="y:50px;opacity:0;s:1500;e:Power4.easeInOut;"
                                 data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
                                 data-mask_out="x:inherit;y:inherit;" data-start="1500" data-splitin="none"
-                                data-splitout="none" data-responsive_offset="on" style="z-index: 8;"><a href="#marine"
-                                    class="btn js-target-scroll">Look more
-                                    <i class="icon-next"></i></a>
+                                data-splitout="none" data-responsive_offset="on"><a href="#about"
+                                    class="btn js-target-scroll">Look more <i class="icon-next"></i></a>
                             </div>
                         </li>
                     </ul>
@@ -324,21 +281,21 @@
                                 <h3 class="col-about-title">Our<br> specialization<span class="text-primary">:</span>
                                 </h3>
                                 <div class="service-item">
-                                    <img alt="" width="58" src="img/iconos/home.png">
+                                    <img alt="" width="58" src="{{ asset('img/iconos/home.png') }}">
                                     <h4>Residential</h4>
                                 </div>
                                 <div class="service-item">
-                                    <img alt="" width="58" src="img/iconos/building.png">
+                                    <img alt="" width="58" src="{{ asset('img/iconos/building.png') }}">
                                     <h4>Comercial</h4>
                                 </div>
                                 <div class="service-item">
-                                    <img alt="" width="58" src="img/iconos/bote.png">
+                                    <img alt="" width="58" src="{{ asset('img/iconos/bote.png') }}">
                                     <h4>Marine</h4>
                                 </div>
                             </div>
                             <div class="clearfix visible-sm"></div>
                             <div class="col-base col-about-img col-sm-6 col-md-4">
-                                <img alt="" class="img-responsive" src="img/smarthome-phone.jpg">
+                                <img alt="" class="img-responsive" src="{{ asset('img/smarthome-phone.jpg') }}">
                             </div>
                         </div>
                     </div>
@@ -376,7 +333,7 @@
                                     your lighting and speaker preferences at the touch of a button.</p>
                             </div>
                             <div class="project-details-img col-md-8 col-md-offset-4">
-                                <img alt="" class="img-responsive" src="img/residential-detail.jpg">
+                                <img alt="" class="img-responsive" src="{{ asset('img/residential-detail.jpg') }}">
                             </div>
                         </div>
                     </div>
@@ -387,9 +344,9 @@
                 <div class="section-content">
                     <div class="projects-carousel js-projects-carousel">
                         <div class="project project-light">
-                            <a href="residential-home-entertainment.html" title="Home Entertainment">
+                            <a href="{{ route('residential.one') }}" title="Home Entertainment">
                                 <figure>
-                                    <img alt="" src="img/home-enter.jpg">
+                                    <img alt="" src="{{ asset('img/home-entern.jpg') }}">
                                     <figcaption>
                                         <h3 class="project-title">
                                             Home <br>
@@ -404,9 +361,9 @@
                             </a>
                         </div>
                         <div class="project project-light">
-                            <a href="residential-smart-home-automation.html" title="project 2">
+                            <a href="{{ route('residential.two') }}" title="project 2">
                                 <figure>
-                                    <img alt="" src="img/smart-home-auto.jpg">
+                                    <img alt="" src="{{ asset('img/smart-home-auto.jpg') }}">
                                     <figcaption>
                                         <h3 class="project-title">
                                             Smart Home <br>
@@ -420,9 +377,9 @@
                             </a>
                         </div>
                         <div class="project">
-                            <a href="residential-lighting-energy-control.html" title="project 3">
+                            <a href="{{ route('residential.three') }}" title="project 3">
                                 <figure>
-                                    <img alt="" src="img/lithing-energy.jpg">
+                                    <img alt="" src="{{ asset('img/lithing-energy.jpg') }}">
                                     <figcaption>
                                         <h3 class="project-title">
                                             Lighting <br>
@@ -436,9 +393,9 @@
                             </a>
                         </div>
                         <div class="project">
-                            <a href="residential-security-installation.html" title="project 3">
+                            <a href="{{ route('residential.four') }}" title="project 3">
                                 <figure>
-                                    <img alt="" src="img/security-home.jpg">
+                                    <img alt="" src="{{ asset('img/security-home.jpg') }}">
                                     <figcaption>
                                         <h3 class="project-title">
                                             Security <br>
@@ -484,9 +441,9 @@
                 <div class="section-content">
                     <div class="projects-carousel js-projects-carousel">
                         <div class="project project-light">
-                            <a href="comercial-integrated-security.html" title="Home Entertainment">
+                            <a href="{{ route('comercial.one') }}" title="Home Entertainment">
                                 <figure>
-                                    <img alt="" src="img/integrated-security.jpg">
+                                    <img alt="" src="{{ asset('img/integrated-security.jpg') }}">
                                     <figcaption>
                                         <h3 class="project-title">
                                             Integrated <br>
@@ -501,9 +458,9 @@
                             </a>
                         </div>
                         <div class="project project-light">
-                            <a href="comercial-integrated-security.html" title="Home Entertainment">
+                            <a href="{{ route('comercial.two') }}" title="Home Entertainment">
                                 <figure>
-                                    <img alt="" src="img/av-system.jpg">
+                                    <img alt="" src="{{ asset('img/av-system.jpg') }}">
                                     <figcaption>
                                         <h3 class="project-title">
                                             Professional <br>
@@ -518,9 +475,9 @@
                             </a>
                         </div>
                         <div class="project">
-                            <a href="residential-lighting-energy-control.html" title="project 3">
+                            <a href="{{ route('comercial.three') }}" title="project 3">
                                 <figure>
-                                    <img alt="" src="img/IT-Structured-Wiring.jpg">
+                                    <img alt="" src="{{ asset('img/IT-Structured-Wiring.jpg') }}">
                                     <figcaption>
                                         <h3 class="project-title">
                                             IT & <br>
@@ -534,9 +491,9 @@
                             </a>
                         </div>
                         <div class="project">
-                            <a href="comercial-integrated-security.html" title="Home Entertainment">
+                            <a href="{{ route('comercial.one') }}" title="Home Entertainment">
                                 <figure>
-                                    <img alt="" src="img/integrated-security.jpg">
+                                    <img alt="" src="{{ asset('img/integrated-security.jpg') }}">
                                     <figcaption>
                                         <h3 class="project-title">
                                             Integrated <br>
@@ -569,7 +526,7 @@
                                     sound systems, and stunning visual displays.</p>
                             </div>
                             <div class="project-details-img col-md-8 col-md-offset-4">
-                                <img alt="" class="img-responsive" src="img/yate.jpg">
+                                <img alt="" class="img-responsive" src="{{ asset('img/yate.jpg') }}">
                             </div>
                         </div>
                     </div>
@@ -580,9 +537,9 @@
                 <div class="section-content">
                     <div class="projects-carousel js-projects-carousel">
                         <div class="project project-light">
-                            <a href="marine-professional-starlink-installation.html" title="Home Entertainment">
+                            <a href="{{ route('marine.one') }}" title="Home Entertainment">
                                 <figure>
-                                    <img alt="" src="img/starklink.jpg">
+                                    <img alt="" src="{{ asset('img/starklink.jpg') }}">
                                     <figcaption>
                                         <h3 class="project-title">
                                             Starlink <br>
@@ -597,9 +554,9 @@
                             </a>
                         </div>
                         <div class="project project-light">
-                            <a href="marine-kvh-partners.html" title="project 2">
+                            <a href="{{ route('marine.two') }}" title="project 2">
                                 <figure>
-                                    <img alt="" src="img/kvh.jpg">
+                                    <img alt="" src="{{ asset('img/kvh.jpg') }}">
                                     <figcaption>
                                         <h3 class="project-title">
                                             KVH <br>
@@ -613,9 +570,9 @@
                             </a>
                         </div>
                         <div class="project">
-                            <a href="marine-audio-video-systems.html" title="project 3">
+                            <a href="{{ route('marine.three') }}" title="project 3">
                                 <figure>
-                                    <img alt="" src="img/audio-system.jpg">
+                                    <img alt="" src="{{ asset('img/audio-system.jpg') }}">
                                     <figcaption>
                                         <h3 class="project-title">
                                             Audio Video <br>
@@ -629,9 +586,9 @@
                             </a>
                         </div>
                         <div class="project">
-                            <a href="marine-video-surveillance.html" title="project 3">
+                            <a href="{{ route('marine.four') }}" title="project 3">
                                 <figure>
-                                    <img alt="" src="img/integrated-security.jpg">
+                                    <img alt="" src="{{ asset('img/marine-four.jpg') }}">
                                     <figcaption>
                                         <h3 class="project-title">
                                             Video <br>
@@ -766,5 +723,4 @@
             </div>
         </div>
     </div>
-@endsection
-
+    @endsection

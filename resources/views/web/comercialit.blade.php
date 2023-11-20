@@ -15,7 +15,7 @@
         <main class="main main-inner bg-it" data-stellar-background-ratio="0.6">
             <div class="container">
                 <header class="main-header">
-                    <h1>SOLVING CONNECTIVITY CHALLENGES WITH INNOVATIVE SOLUTIONS</h1>
+                    <h2>SOLVING CONNECTIVITY CHALLENGES WITH INNOVATIVE SOLUTIONS</h2>
                 </header>
             </div>
 

@@ -61,11 +61,11 @@ class IndexController extends Controller
     }
     public function marine_system()
     {
-        return view('web.redlighting');
+        return view('web.marinesystem');
     }
     public function marine_video()
     {
-        return view('web.redsecurity');
+        return view('web.marinevideo');
     }
 
     public function about()

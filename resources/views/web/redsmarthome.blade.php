@@ -15,7 +15,7 @@
         <main class="main main-inner bg-automation" data-stellar-background-ratio="0.6">
             <div class="container">
                 <header class="main-header">
-                    <h1>TRANSFORMING HOMES WITH INTELLIGENT AUTOMATION</h1>
+                    <h2>TRANSFORMING HOMES WITH <br>INTELLIGENT AUTOMATION</h2>
                 </header>
             </div>
 

@@ -13,7 +13,7 @@
         <main class="main main-inner bg-audio" data-stellar-background-ratio="0.6">
             <div class="container">
                 <header class="main-header">
-                    <h1>CREATING IMMERSIVE EXPERIENCES WITH SUPERIOR AUDIO-VISUAL SYSTEMS</h1>
+                    <h2>CREATING IMMERSIVE EXPERIENCES WITH SUPERIOR AUDIO-VISUAL SYSTEMS</h2>
                 </header>
             </div>
             <!-- Lines -->

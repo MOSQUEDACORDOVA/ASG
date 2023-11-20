@@ -15,7 +15,7 @@
         <main class="main main-inner bg-professional" data-stellar-background-ratio="0.6">
             <div class="container">
                 <header class="main-header">
-                    <h1>CREATING IMMERSIVE AUDIO-VISUAL EXPERIENCES</h1>
+                    <h2>CREATING IMMERSIVE AUDIO-VISUAL EXPERIENCES</h2>
                 </header>
             </div>
 

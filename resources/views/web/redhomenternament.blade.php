@@ -15,7 +15,7 @@
         <main class="main main-inner bg-residential" data-stellar-background-ratio="0.1">
             <div class="container">
                 <header class="main-header">
-                    <h1>EXPERIENCE CINEMA-QUALITY ENTERTAINMENT AT HOME</h1>
+                    <h2>EXPERIENCE CINEMA-QUALITY <br> ENTERTAINMENT AT HOME</h2>
                 </header>
             </div>
 
