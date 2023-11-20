@@ -68,18 +68,7 @@
 
                             <!-- Layer 3 -->
 
-                            <div class="tp-caption" data-x="['middle','middle','middle','middle']"
-                                data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']"
-                                data-voffset="['195','215']" data-width="none" data-height="none"
-                                data-whitespace="nowrap" data-transform_idle="o:1;"
-                                data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;"
-                                data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);"
-                                data-transform_in="y:50px;opacity:0;s:1500;e:Power4.easeInOut;"
-                                data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                                data-mask_out="x:inherit;y:inherit;" data-start="1500" data-splitin="none"
-                                data-splitout="none" data-responsive_offset="on"><a href="#about"
-                                    class="btn js-target-scroll">Look more <i class="icon-next"></i></a>
-                            </div>
+
                         </li>
 
                         <!-- Slide 2 -->
@@ -123,18 +112,7 @@
 
                             <!-- Layer 3 -->
 
-                            <div class="tp-caption" data-x="['middle','middle','middle','middle']"
-                                data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']"
-                                data-voffset="['195','215']" data-width="none" data-height="none"
-                                data-whitespace="nowrap" data-transform_idle="o:1;"
-                                data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;"
-                                data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);"
-                                data-transform_in="y:50px;opacity:0;s:1500;e:Power4.easeInOut;"
-                                data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                                data-mask_out="x:inherit;y:inherit;" data-start="1500" data-splitin="none"
-                                data-splitout="none" data-responsive_offset="on"><a href="#about"
-                                    class="btn js-target-scroll">Look more <i class="icon-next"></i></a>
-                            </div>
+
                         </li>
 
                         <!-- Slide 3 -->
@@ -177,18 +155,7 @@
 
                             <!-- Layer 3 -->
 
-                            <div class="tp-caption" data-x="['middle','middle','middle','middle']"
-                                data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']"
-                                data-voffset="['195','215']" data-width="none" data-height="none"
-                                data-whitespace="nowrap" data-transform_idle="o:1;"
-                                data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;"
-                                data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);"
-                                data-transform_in="y:50px;opacity:0;s:1500;e:Power4.easeInOut;"
-                                data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                                data-mask_out="x:inherit;y:inherit;" data-start="1500" data-splitin="none"
-                                data-splitout="none" data-responsive_offset="on"><a href="#about"
-                                    class="btn js-target-scroll">Look more <i class="icon-next"></i></a>
-                            </div>
+
                         </li>
 
                         <!-- Slide 4 -->
@@ -231,18 +198,7 @@
 
                             <!-- Layer 3 -->
 
-                            <div class="tp-caption" data-x="['middle','middle','middle','middle']"
-                                data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']"
-                                data-voffset="['195','215']" data-width="none" data-height="none"
-                                data-whitespace="nowrap" data-transform_idle="o:1;"
-                                data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;"
-                                data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);"
-                                data-transform_in="y:50px;opacity:0;s:1500;e:Power4.easeInOut;"
-                                data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                                data-mask_out="x:inherit;y:inherit;" data-start="1500" data-splitin="none"
-                                data-splitout="none" data-responsive_offset="on"><a href="#about"
-                                    class="btn js-target-scroll">Look more <i class="icon-next"></i></a>
-                            </div>
+
                         </li>
                     </ul>
                 </div>
@@ -295,7 +251,7 @@
                             </div>
                             <div class="clearfix visible-sm"></div>
                             <div class="col-base col-about-img col-sm-6 col-md-4">
-                                <img alt="" class="img-responsive" src="{{ asset('img/smarthome-phone.jpg') }}">
+                                <img alt="" class="img-responsive" src="{{ asset('img/smarthome-phone.jpeg') }}">
                             </div>
                         </div>
                     </div>
