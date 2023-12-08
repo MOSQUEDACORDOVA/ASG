@@ -59,6 +59,13 @@ Route::get('/dashboard', function () {
 })->middleware(['auth'])->name('dashboard');
 
 require __DIR__.'/auth.php';
+Route::get('admin', function () {
+    return redirect()->route('ingresar');
+})->before(function () {
+    if (!Auth::check()) {
+        return redirect()->route('ingresar');
+    }
+});
 
 # Rutas web
 

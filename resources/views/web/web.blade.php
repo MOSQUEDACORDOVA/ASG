@@ -386,7 +386,7 @@
                                     presentations, and unparalleled communication experiences.</p>
                             </div>
                             <div class="project-details-img col-md-8 col-md-offset-4">
-                                <img alt="" class="img-responsive" src="img/comercial.jpg">
+                                <img alt="" class="img-responsive" src="{{ asset('img/comercial.jpg')}}">
                             </div>
                         </div>
                     </div>
@@ -449,7 +449,7 @@
                         <div class="project">
                             <a href="{{ route('comercial.one') }}" title="Home Entertainment">
                                 <figure>
-                                    <img alt="" src="{{ asset('img/integrated-security.jpg') }}">
+                                    <img alt="" src="{{ asset('img/marine-four.jpg') }}">
                                     <figcaption>
                                         <h3 class="project-title">
                                             Integrated <br>
@@ -544,7 +544,7 @@
                         <div class="project">
                             <a href="{{ route('marine.four') }}" title="project 3">
                                 <figure>
-                                    <img alt="" src="{{ asset('img/marine-four.jpg') }}">
+                                    <img alt="" src="{{ asset('img/video2.avif') }}">
                                     <figcaption>
                                         <h3 class="project-title">
                                             Video <br>

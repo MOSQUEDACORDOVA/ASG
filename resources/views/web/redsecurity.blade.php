@@ -63,7 +63,7 @@
                                     customized solutions to keep you in control and give you peace of mind.</p>
                             </div>
                             <div class="project-details-img col-md-8 col-md-offset-4">
-                                <img alt="" class="img-responsive" src="img/security1.avif">
+                                <img alt="" class="img-responsive" src="{{ asset('img/camara-security.avif') }}">
                             </div>
                         </div>
                     </div>
